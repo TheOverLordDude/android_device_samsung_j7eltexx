@@ -7,7 +7,7 @@ Copyright (C) 2016-2017 Apavayan Sinha <info@apavayan.com>
       http://www.apache.org/licenses/LICENSE-2.0
 
 
-Device Tree For Samsung Galaxy J7 LTE
+Device Tree For Samsung Galaxy J7 (sm-J700T LTE
 ===================================== 
 
 Basic   | Spec Sheet
@@ -15,7 +15,7 @@ Basic   | Spec Sheet
 CPU     | Qcta 1.5 GHz Cortex-A53
 CHIPSET | Samsung Exynos 7580
 GPU     | Mali-T720MP2
-Memory  | 1.5GB RAM
+Memory  | 2GB RAM
 Android | 5.1.1
 Storage | 16 GB
 MicroSD | Up to 128GB
@@ -30,12 +30,9 @@ Rear Camera  | 13 MP,  4128 x 3096 pixels, autofocus, LED flash
 This branch is for building Lineage 14.1 Firmware.
 
 
-Model Supported : SM-J700F SM-J700M SM-J700H
+Model Supported : SM-J700T, SM-J700T1
 
 
 TODO:
 -----
- - HWC VSync
- - Figure Out Incoming Calls audio
- - random reboot (Need to Verify fixed or not)
- - Sepolicy needs to be fixed (disabled)
+-Make It Work
