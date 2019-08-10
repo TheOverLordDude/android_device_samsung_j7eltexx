@@ -22,8 +22,8 @@ $(call inherit-product, device/samsung/j7eltexx/full_j7eltexx.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_j7eltexx
-PRODUCT_DEVICE := j7eltexx
+PRODUCT_NAME := lineage_j700T
+PRODUCT_DEVICE := j700T
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
